@@ -1,5 +1,6 @@
 import oasiPreview from "../assets/previewOasiPizzeria.png";
 import focusFlowPreview from "../assets/previewFocusFlow.png";
+import barberAtelierPreview from "../assets/previewBarberAtelier.png";
 
 const projects = [
 
@@ -60,6 +61,37 @@ const projects = [
         github:"https://github.com/maicol080/focusflow",
 
         live:"https://focusflowhub.vercel.app/"
+
+    },
+
+    {
+
+        number:"03",
+
+        category:"Business Website",
+
+        title:"Barber Atelier",
+
+        image:barberAtelierPreview,
+
+
+        description:
+        "Sito web vetrina premium progettato per una barberia moderna. Il progetto punta su un design elegante e immersivo per valorizzare il brand, i servizi e l'esperienza del cliente. Include sezioni dedicate alla filosofia del locale, servizi, gallery, team, contatti e un'interfaccia completamente responsive.",
+
+
+        technologies:[
+            "React",
+            "Vite",
+            "CSS",
+            "Responsive Design",
+            "React Components",
+            "SEO Optimization"
+        ],
+
+
+        github:"https://github.com/maicol080/barber",
+
+        live:"https://barber-atelier.vercel.app/"
 
     }
 
