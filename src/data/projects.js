@@ -123,7 +123,7 @@ const projects = [
 
         github:"https://github.com/maicol080/pusane",
 
-        live:"pusane.vercel.app"
+        live:"https://pusane.vercel.app"
 
     }
 
