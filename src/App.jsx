@@ -1,17 +1,28 @@
 import "./App.css";
 
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+
+
 function App() {
 
   return (
-    <div style={{
-      color: "white",
-      background: "red",
-      height: "100vh"
-    }}>
-      TEST SAFARI
+
+    <div className="page">
+
+      <Navbar />
+
+      <main>
+
+        <Hero />
+
+      </main>
+
     </div>
+
   );
 
 }
+
 
 export default App;
