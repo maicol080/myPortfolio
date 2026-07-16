@@ -1,6 +1,7 @@
 import oasiPreview from "../assets/previewOasiPizzeria.png";
 import focusFlowPreview from "../assets/previewFocusFlow.png";
 import barberAtelierPreview from "../assets/previewBarberAtelier.png";
+import pusanePreview from "../assets/previewPusane.png";
 
 const projects = [
 
@@ -92,6 +93,37 @@ const projects = [
         github:"https://github.com/maicol080/barber",
 
         live:"https://barber-atelier.vercel.app/"
+
+    },
+
+    {
+
+        number:"04",
+
+        category:"Business Website",
+
+        title:"Pusané",
+
+        image:pusanePreview,
+
+
+        description:
+        "Sito web vetrina premium sviluppato per un locale di street food pugliese. Il progetto è stato pensato per raccontare l'identità di Pusané attraverso un'esperienza digitale coinvolgente, mettendo in risalto i prodotti, la tradizione pugliese e l'atmosfera del locale. Include sezioni dedicate al menu, prodotti, storia, location, ordini e un design completamente responsive.",
+
+
+        technologies:[
+            "React",
+            "Vite",
+            "CSS",
+            "Responsive Design",
+            "Framer Motion",
+            "SEO Optimization"
+        ],
+
+
+        github:"https://github.com/maicol080/pusane",
+
+        live:"pusane.vercel.app"
 
     }
 
