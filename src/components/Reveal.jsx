@@ -1,35 +1,49 @@
 import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
 
 
-function Reveal({children, delay = 0}){
+function Reveal({ children, delay = 0 }) {
+
+    const [visible, setVisible] = useState(false);
 
 
-    return(
+    useEffect(() => {
+
+        const timer = setTimeout(() => {
+            setVisible(true);
+        }, 100);
+
+
+        return () => clearTimeout(timer);
+
+    }, []);
+
+
+
+    return (
 
         <motion.div
 
             initial={{
-                opacity:0,
-                y:40
+                opacity: 0,
+                y: 40
             }}
 
+            animate={visible ? {
 
-            whileInView={{
-                opacity:1,
-                y:0
-            }}
+                opacity: 1,
+                y: 0
 
-
-            viewport={{
-                once:true,
-                amount:0.2
-            }}
+            } : {}}
 
 
             transition={{
-                duration:0.7,
+
+                duration: 0.7,
                 delay
+
             }}
+
 
         >
 
