@@ -1,6 +1,5 @@
 import "./App.css";
 
-import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 
 
@@ -8,21 +7,10 @@ function App() {
 
   return (
 
-    <div className="page">
-
-      <Navbar />
-
-      <main>
-
-        <Hero />
-
-      </main>
-
-    </div>
+    <Hero />
 
   );
 
 }
-
 
 export default App;
