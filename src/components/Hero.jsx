@@ -1,5 +1,3 @@
-import { motion } from "framer-motion";
-
 function Hero(){
 
     return(
@@ -7,25 +5,7 @@ function Hero(){
         <section id="home" className="hero">
 
 
-            <motion.div
-
-                className="hero-content"
-
-                initial={{
-                    opacity:0,
-                    y:30
-                }}
-
-                animate={{
-                    opacity:1,
-                    y:0
-                }}
-
-                transition={{
-                    duration:0.8
-                }}
-
-            >
+            <div className="hero-content">
 
 
                 <p className="hero-subtitle">
@@ -63,7 +43,7 @@ function Hero(){
                 </div>
 
 
-            </motion.div>
+            </div>
 
 
         </section>
