@@ -2,6 +2,7 @@ import oasiPreview from "../assets/previewOasiPizzeria.png";
 import focusFlowPreview from "../assets/previewFocusFlow.png";
 import barberAtelierPreview from "../assets/previewBarberAtelier.png";
 import pusanePreview from "../assets/previewPusane.png";
+import colorWandererPreview from "../assets/previewColorWanderer.png";
 
 const projects = [
 
@@ -128,34 +129,34 @@ const projects = [
     },
 
     {
-    number:"05",
+        number:"05",
 
-    category:"Interactive Web App",
+        category:"Interactive Web App",
 
-    title:"Color Wanderer",
+        title:"Color Wanderer",
 
-    image:colorWandererPreview,
-
-
-    description:
-    "Applicazione web interattiva sviluppata con React per esplorare colori casuali attraverso un'esperienza visiva dinamica. Il progetto genera palette HEX uniche e le presenta tramite un'animazione ispirata alla vernice che si espande, creando una transizione coinvolgente tra interazione utente e cambiamento dello sfondo. Include gestione dello stato, animazioni CSS personalizzate e un'interfaccia semplice e responsive.",
+        image:colorWandererPreview,
 
 
-    technologies:[
-        "React",
-        "Vite",
-        "JavaScript",
-        "CSS Animations",
-        "Responsive Design",
-        "SEO Optimization"
-    ],
+        description:
+        "Applicazione web interattiva sviluppata con React per esplorare colori casuali attraverso un'esperienza visiva dinamica. Il progetto genera palette HEX uniche e le presenta tramite un'animazione ispirata alla vernice che si espande, creando una transizione coinvolgente tra interazione utente e cambiamento dello sfondo. Include gestione dello stato, animazioni CSS personalizzate e un'interfaccia semplice e responsive.",
 
 
-    github:"https://github.com/maicol080/color-wanderer",
+        technologies:[
+            "React",
+            "Vite",
+            "JavaScript",
+            "CSS Animations",
+            "Responsive Design",
+            "SEO Optimization"
+        ],
 
-    live:"https://color-wanderer.vercel.app"
 
-}
+        github:"https://github.com/maicol080/color-wanderer",
+
+        live:"https://color-wanderer.vercel.app"
+
+    }
 
 ];
 
