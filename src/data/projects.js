@@ -125,7 +125,37 @@ const projects = [
 
         live:"https://pusane.vercel.app"
 
-    }
+    },
+
+    {
+    number:"05",
+
+    category:"Interactive Web App",
+
+    title:"Color Wanderer",
+
+    image:colorWandererPreview,
+
+
+    description:
+    "Applicazione web interattiva sviluppata con React per esplorare colori casuali attraverso un'esperienza visiva dinamica. Il progetto genera palette HEX uniche e le presenta tramite un'animazione ispirata alla vernice che si espande, creando una transizione coinvolgente tra interazione utente e cambiamento dello sfondo. Include gestione dello stato, animazioni CSS personalizzate e un'interfaccia semplice e responsive.",
+
+
+    technologies:[
+        "React",
+        "Vite",
+        "JavaScript",
+        "CSS Animations",
+        "Responsive Design",
+        "SEO Optimization"
+    ],
+
+
+    github:"https://github.com/maicol080/color-wanderer",
+
+    live:"https://color-wanderer.vercel.app"
+
+}
 
 ];
 
