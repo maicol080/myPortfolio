@@ -152,7 +152,7 @@ const projects = [
         ],
 
 
-        github:"https://github.com/maicol080/color-wanderer",
+        github:"https://github.com/maicol080/randomColor",
 
         live:"https://color-wanderer.vercel.app"
 
